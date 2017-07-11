@@ -9,7 +9,7 @@
 }
 
 #page-wrapper {
-    margin-top: 250px;
+    margin-top: 280px;
 }
 
 img {
@@ -17,7 +17,7 @@ img {
 }
 
 html {
-    background-image: url(../site_witcher/images/witcher.jpg);
+    background-image: url(../site_witcher/images/witcher-crop.jpg);
     background-repeat: no-repeat;
 }
 
@@ -157,7 +157,7 @@ a {
 }
 
 #secondary-menu > ul > #logo {
-    width: 140px;
+    width: 175px;
     position: relative;
 }
 
@@ -175,12 +175,16 @@ a {
 
 #content {
     width: 75%;
-    background-color: red;
+    float: left;
 }
 
 #sidebar {
     width: 25%;
-    background-color: green;
+    float: left;
+}
+
+.clear {
+    clear: both;
 }
 
 
