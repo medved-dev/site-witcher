@@ -1,5 +1,6 @@
 * {
     font-family: 'Roboto Condensed', Arial, sans-serif;
+    box-sizing: border-box;
 }
 
 .conteiner {
@@ -8,11 +9,16 @@
 }
 
 #page-wrapper {
-    margin-top: 150px;
+    margin-top: 250px;
+}
+
+img {
+    max-width: 100%;
 }
 
 html {
-    background-image: url(../site_witcher/images/witcher.jpg)
+    background-image: url(../site_witcher/images/witcher.jpg);
+    background-repeat: no-repeat;
 }
 
 body {
@@ -105,3 +111,76 @@ a {
 #primary-menu > ul > li a:hover::before {
     opacity: 1;
 }
+
+/* Secondary-menu*/
+
+#secondary-menu {
+    background: #2B3F4A;
+    height: 95px;
+    width: 90%;
+    margin: 0 auto;
+    line-height: 75px;
+    padding: 0 50px;
+    text-align: center;
+}
+
+#secondary-menu > ul {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    line-height: 100px;
+}
+
+#secondary-menu > #logo {
+    display: inline-block;
+    width: 400px;
+}
+
+#secondary-menu > ul > li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+
+}
+
+#secondary-menu > ul > li a {
+    color: #ffffff;
+    text-decoration: none;
+    height: 75px;
+    line-height: 75px;
+    padding: 0;
+}
+
+#secondary-menu > ul > li > a:hover {
+    color: #6C6767;
+
+}
+
+#secondary-menu > ul > #logo {
+    width: 140px;
+    position: relative;
+}
+
+#secondary-menu > ul > #logo > img {
+    position: absolute;
+    left: 0;
+    top: -40px;
+}
+
+/* Content*/
+
+#content-wrapper {
+    background-color: #ffffff;
+}
+
+#content {
+    width: 75%;
+    background-color: red;
+}
+
+#sidebar {
+    width: 25%;
+    background-color: green;
+}
+
+
