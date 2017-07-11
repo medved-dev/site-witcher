@@ -4,13 +4,14 @@
 
 html, body {
     padding: 0;
-    margin: o;
+    margin: 0;
 }
 
 /* Primary-menu*/
 
 #primary-menu {
     background: #6C6767;
+    height: 75px;
 }
 
 #primary-menu > ul {
@@ -26,4 +27,9 @@ html, body {
 
 #primary-menu > ul > li:last-child {
     margin-right: 0;
+}
+
+#primary-menu > ul > li a {
+    color: #ffffff;
+    text-decoration: none;
 }
