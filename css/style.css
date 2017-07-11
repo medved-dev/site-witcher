@@ -17,7 +17,7 @@ img {
 }
 
 html {
-    background-image: url(./images/witcher-crop.jpg);
+    background-image: url(./../images/witcher-crop.jpg);
     background-repeat: no-repeat;
 }
 
