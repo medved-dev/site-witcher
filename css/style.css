@@ -19,11 +19,9 @@ img {
 html {
     background-image: url(./../images/witcher-crop.jpg);
     background-repeat: no-repeat;
+
 }
 
-body {
-    height: 1500px;
-}
 
 html, body {
     padding: 0;
@@ -36,11 +34,15 @@ a {
 
 /* Primary-menu*/
 
+html {
+    background-color: #2C1F03;
+}
+
 body {
-    background-image: url("../images/down.jpg");
+    background-image: url("./../images/foter.jpg");
     background-repeat: no-repeat;
-    background-position: center bottom;
-    width: 100%;
+    background-position: bottom;
+    background-size: 100%;
 }
 
 .primary-menu {
@@ -172,12 +174,16 @@ body {
 /* Content*/
 
 .content-wrapper {
-   background-color: #ffffff;
+    background-color: #ffffff;
+}
+
+.content, .sidebar {
+    float: left;
+    padding: 40px;
 }
 
 .content {
     width: 75%;
-    float: left;
 }
 
 .sidebar {
@@ -187,4 +193,14 @@ body {
 
 .clear {
     clear: both;
+}
+
+footer {
+    background-color: #2B3F4A;;
+    padding: 40px;
+    color: #ffffff;
+}
+
+.footer {
+    padding-bottom: 300px;
 }
