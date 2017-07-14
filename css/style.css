@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 
-.conteiner {
+.container {
     width: 1200px;
     margin: 0 auto;
 }
@@ -175,6 +175,10 @@ body {
 }
 
 /* Content*/
+
+.content-wrapper {
+   background-color: #ffffff;
+}
 
 .content {
     width: 75%;
