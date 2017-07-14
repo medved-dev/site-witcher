@@ -9,16 +9,16 @@
 }
 
 .page-wrapper {
-    margin-top: 280px;
+    margin-top: 280px; /* Устанавливает величину отступа от верхнего края элемента. Отступом является расстояние от внешнего края верхней границы текущего элемента до внутренней границы его родительского элемента */
 }
 
 img {
-    max-width: 100%;
+    max-width: 100%; /*Устанавливает максимальную ширину элемента*/
 }
 
 html {
-    background-image: url(./../images/witcher-crop.jpg);
-    background-repeat: no-repeat;
+    background-image: url(./../images/witcher-crop.jpg); /*Устанавливает фоновое изображение для элемента*/
+    background-repeat: no-repeat; /*Определяет, как будет повторяться фоновое изображение, установленное с помощью свойства background-image*/
 
 }
 
@@ -39,8 +39,8 @@ html {
 }
 
 body {
-    background-image: url("./../images/foter.jpg");
-    background-repeat: no-repeat;
+    background-image: url("./../images/foter.jpg"); /*Устанавливает фоновое изображение для элемента*/
+    background-repeat: no-repeat; /*Определяет, как будет повторяться фоновое изображение, установленное с помощью свойства background-image*/
     background-position: bottom;
     background-size: 100%;
 }
