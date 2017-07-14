@@ -138,11 +138,6 @@ body {
     line-height: 100px;
 }
 
-.secondary-menu > #logo {
-    display: inline-block;
-    width: 400px;
-}
-
 .secondary-menu > ul > li {
     display: inline-block;
     list-style: none;
@@ -163,12 +158,12 @@ body {
 
 }
 
-.secondary-menu > ul > #logo {
+.secondary-menu > ul > .logo {
     width: 175px;
     position: relative;
 }
 
-.secondary-menu > ul > #logo > img {
+.secondary-menu > ul > .logo > img {
     position: absolute;
     left: 0;
     top: -40px;
